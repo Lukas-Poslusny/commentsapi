@@ -1,0 +1,22 @@
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin my-5">
+        <div class="card-body">
+          <h5 class="card-title text-center">User info</h5>
+          <hr class="my-4">
+          <p>Your username: {{username}}<br></p>
+          <p>Your email: {{email}}<br></p>
+          <button class="btn btn-lg btn-primary btn-block text-uppercase" name="submitButton" (click)="clickedButton()" type="submit">Get info</button>
+          <a class="btn btn-lg btn-primary btn-block text-uppercase" routerLink="/logged-in">Go back</a>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+
+
