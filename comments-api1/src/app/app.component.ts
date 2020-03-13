@@ -1,5 +1,5 @@
+// @ts-ignore
 import { Component } from '@angular/core';
-import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
