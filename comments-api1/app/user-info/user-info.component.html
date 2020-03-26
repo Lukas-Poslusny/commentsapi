@@ -1,0 +1,15 @@
+<table class="table">
+  <button class="btn btn-lg btn-primary btn-block text-uppercase" name="submitButton" (click)="clickedButton()" type="submit">get info</button>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>{{users.id}}</td>
+    <td>
+      <a routerLink="/user" [queryParams]="{id: user.id}">{{users.username}}</a>
+    </td>
+    <td>{{users.email}}</td>
+  </tr>
+</table>
